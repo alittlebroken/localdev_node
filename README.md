@@ -44,9 +44,15 @@ git remote set-url origin <new remote repo>
 - Edit the docker-compose.yaml file and set the service names to your desired names
 - Add any environment vars or other options like mounted volumes that you require
 
-- Build and start the docker image
+- Build and start the docker image(s)
+#### Default
 ```cmd
-docker-compose up --build -d
+docker-compose -f docker-compose.yaml up --build -d
+```
+
+#### API + DB
+```cmd
+docker-compose -f api-docker-compose.yaml up --build -d
 ```
 
 - Start containers after first build
