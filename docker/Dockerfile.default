@@ -1,0 +1,6 @@
+# Simple NODEJS Local Dev env for Node
+FROM node:latest
+WORKDIR /app
+RUN npm init -y \
+    && npm i --save-dev nodemon vitest dotenv \
+    && npm i joi 
