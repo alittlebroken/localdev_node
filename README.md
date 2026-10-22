@@ -27,12 +27,12 @@ is used from to persist the app code you develop.
 
 - Clone the github repo
 ```cmd
-git clone https://github.com/alittlebroken/localdev-node.git
+git clone git@github.com:alittlebroken/localdev_node.git
 ```
 
 - Update project folder name
 ```cmd
-ren localdev-node <project_name>
+ren localdev_node <project_name>
 cd <project_name>
 ```
 
